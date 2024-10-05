@@ -1,0 +1,64 @@
+  /* universal CSS */
+  *{
+        margin:0px;
+        padding: 0;
+        box-sizing:border-box;
+        color: white;
+        text-align: center;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 1140px;
+    }
+    a{
+        text-decoration:none;
+    }
+   .bg{   
+        background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-bg.jpg"); 
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+  /* nav */
+    .nav-flex{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:40px 0;
+    }
+    .links{
+        padding-left: 100px;
+    }
+    ol{
+        list-style:none; 
+        display:flex;
+        align-items:center;
+    }
+
+  	/* hero section	 */
+    .tagline{
+        margin: 200px 0 10px 0;
+    }
+    .tagline-description{
+        font-size:60px;
+    }
+    hr{
+        margin: 0 auto;
+        width:10%;
+        height:0.5%;
+        margin-bottom: 10px;
+    }
+    .btn{
+        background-color:#e75480; 
+        width:150px;
+        height:5%; 
+        border-radius:50px; 
+        margin:5px; 
+        cursor: pointer;
+        padding: 5px 0;
+        border:none;
+    }
+    
+
+
